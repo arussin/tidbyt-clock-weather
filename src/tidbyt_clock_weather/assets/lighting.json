@@ -1,0 +1,405 @@
+{
+  "version": "0.6",
+  "phases": [
+    "dawn",
+    "day",
+    "golden",
+    "dusk",
+    "night"
+  ],
+  "roles": [
+    "sky",
+    "haze",
+    "far",
+    "far_light",
+    "ridge_shadow",
+    "ridge",
+    "ridge_light",
+    "snow",
+    "forest",
+    "pine",
+    "pine_light",
+    "shore",
+    "water",
+    "water_mid",
+    "water_light",
+    "roof",
+    "roof_light",
+    "wall",
+    "wall_light",
+    "window",
+    "window_core",
+    "reflection",
+    "cloud_shadow",
+    "cloud",
+    "cloud_light",
+    "celestial",
+    "precipitation",
+    "window_spill",
+    "reflection_dim",
+    "reflection_core",
+    "ripple_dim",
+    "leaf_tip",
+    "bark",
+    "smoke"
+  ],
+  "palettes": {
+    "dawn": {
+      "sky": "171a34",
+      "haze": "bc7f81",
+      "far": "4c466d",
+      "far_light": "837a9b",
+      "ridge_shadow": "223451",
+      "ridge": "435876",
+      "ridge_light": "ad93a6",
+      "snow": "efd8bd",
+      "forest": "10262e",
+      "pine": "1d4140",
+      "pine_light": "497b68",
+      "shore": "6f8a7e",
+      "water": "102c46",
+      "water_mid": "234e71",
+      "water_light": "669ea8",
+      "roof": "18283e",
+      "roof_light": "6b7b95",
+      "wall": "2b2330",
+      "wall_light": "50342f",
+      "window": "efaa49",
+      "window_core": "ffe6a2",
+      "reflection": "c57532",
+      "cloud_shadow": "5b586e",
+      "cloud": "b6949b",
+      "cloud_light": "edd1bc",
+      "celestial": "ffe4ad",
+      "precipitation": "aeb6c8",
+      "window_spill": "815231",
+      "reflection_dim": "644639",
+      "reflection_core": "efbf69",
+      "ripple_dim": "19394e",
+      "leaf_tip": "799983",
+      "bark": "312e35",
+      "smoke": "807889"
+    },
+    "day": {
+      "sky": "17436f",
+      "haze": "79abd1",
+      "far": "51819c",
+      "far_light": "89bdd2",
+      "ridge_shadow": "1d4363",
+      "ridge": "326f91",
+      "ridge_light": "6fb6cd",
+      "snow": "edf0df",
+      "forest": "0b3038",
+      "pine": "164a41",
+      "pine_light": "418763",
+      "shore": "75a987",
+      "water": "0b3456",
+      "water_mid": "146580",
+      "water_light": "57b2c4",
+      "roof": "183447",
+      "roof_light": "69a0af",
+      "wall": "393030",
+      "wall_light": "6e4c37",
+      "window": "d8a650",
+      "window_core": "f8d99c",
+      "reflection": "8f6740",
+      "cloud_shadow": "829eb7",
+      "cloud": "c5d8dd",
+      "cloud_light": "f8f1d6",
+      "celestial": "ffe381",
+      "precipitation": "8ec7df",
+      "window_spill": "88603c",
+      "reflection_dim": "294b4d",
+      "reflection_core": "d8b774",
+      "ripple_dim": "0b455c",
+      "leaf_tip": "99bc76",
+      "bark": "3b4235",
+      "smoke": "8bb4c1"
+    },
+    "golden": {
+      "sky": "28375c",
+      "haze": "dfa576",
+      "far": "575470",
+      "far_light": "a69795",
+      "ridge_shadow": "243d53",
+      "ridge": "55646c",
+      "ridge_light": "dbb27a",
+      "snow": "f5dfb9",
+      "forest": "102d30",
+      "pine": "244b3f",
+      "pine_light": "82a068",
+      "shore": "c4a376",
+      "water": "143b51",
+      "water_mid": "3c687b",
+      "water_light": "b6b899",
+      "roof": "21334a",
+      "roof_light": "b2977e",
+      "wall": "30282c",
+      "wall_light": "765138",
+      "window": "ebb04e",
+      "window_core": "ffe4a0",
+      "reflection": "cf873a",
+      "cloud_shadow": "666a85",
+      "cloud": "bfafa7",
+      "cloud_light": "ffe1b0",
+      "celestial": "ffd280",
+      "precipitation": "b7b7c6",
+      "window_spill": "a36b36",
+      "reflection_dim": "896347",
+      "reflection_core": "edc47b",
+      "ripple_dim": "20495c",
+      "leaf_tip": "c4b67c",
+      "bark": "554539",
+      "smoke": "b39c85"
+    },
+    "dusk": {
+      "sky": "10172f",
+      "haze": "945c7b",
+      "far": "354067",
+      "far_light": "687baa",
+      "ridge_shadow": "182c48",
+      "ridge": "324a78",
+      "ridge_light": "707dab",
+      "snow": "c4bbce",
+      "forest": "0b222c",
+      "pine": "163d39",
+      "pine_light": "316c5d",
+      "shore": "608b7c",
+      "water": "0a2441",
+      "water_mid": "23466d",
+      "water_light": "697bad",
+      "roof": "1b233b",
+      "roof_light": "526188",
+      "wall": "282331",
+      "wall_light": "593731",
+      "window": "f0a044",
+      "window_core": "ffe3a1",
+      "reflection": "c77d35",
+      "cloud_shadow": "32354f",
+      "cloud": "73647f",
+      "cloud_light": "b693a3",
+      "celestial": "e9d4b8",
+      "precipitation": "8099b8",
+      "window_spill": "895130",
+      "reflection_dim": "553a37",
+      "reflection_core": "efb764",
+      "ripple_dim": "102d4b",
+      "leaf_tip": "5e9280",
+      "bark": "262c33",
+      "smoke": "546c88"
+    },
+    "night": {
+      "sky": "040c1e",
+      "haze": "0d2140",
+      "far": "132845",
+      "far_light": "254d7b",
+      "ridge_shadow": "0e2543",
+      "ridge": "234777",
+      "ridge_light": "588bba",
+      "snow": "bdd8e9",
+      "forest": "081f27",
+      "pine": "103932",
+      "pine_light": "296455",
+      "shore": "4b8174",
+      "water": "071b32",
+      "water_mid": "123f62",
+      "water_light": "377eac",
+      "roof": "15273f",
+      "roof_light": "4b7091",
+      "wall": "231f2a",
+      "wall_light": "48312d",
+      "window": "f0a340",
+      "window_core": "ffe7ac",
+      "reflection": "cb8537",
+      "cloud_shadow": "1a2a44",
+      "cloud": "3c5574",
+      "cloud_light": "8a9fbc",
+      "celestial": "f4e5bd",
+      "precipitation": "82a8cb",
+      "window_spill": "81502d",
+      "reflection_dim": "4f352e",
+      "reflection_core": "edb866",
+      "ripple_dim": "0b2d48",
+      "leaf_tip": "477b6b",
+      "bark": "242b30",
+      "smoke": "3c5679"
+    }
+  },
+  "sky": {
+    "dawn": [
+      "151c39",
+      "494263",
+      "bc8180"
+    ],
+    "day": [
+      "0d365e",
+      "276f9d",
+      "8bbbbf"
+    ],
+    "golden": [
+      "233a59",
+      "947c83",
+      "e2b082"
+    ],
+    "dusk": [
+      "0c1531",
+      "343253",
+      "a05f66"
+    ],
+    "night": [
+      "030b1b",
+      "091934",
+      "1a3350"
+    ]
+  },
+  "weather": {
+    "clear": [
+      1,
+      0
+    ],
+    "partly_cloudy": [
+      0.96,
+      0.06
+    ],
+    "overcast": [
+      0.77,
+      0.38
+    ],
+    "fog": [
+      0.86,
+      0.57
+    ],
+    "drizzle": [
+      0.75,
+      0.3
+    ],
+    "rain": [
+      0.68,
+      0.32
+    ],
+    "heavy_rain": [
+      0.56,
+      0.35
+    ],
+    "freezing_rain": [
+      0.69,
+      0.33
+    ],
+    "storm": [
+      0.5,
+      0.3
+    ],
+    "storm_hail": [
+      0.5,
+      0.3
+    ],
+    "snow": [
+      0.91,
+      0.3
+    ],
+    "heavy_snow": [
+      0.8,
+      0.37
+    ],
+    "unknown": [
+      0.8,
+      0.35
+    ]
+  },
+  "sky_bands": 16,
+  "manual_angles": {
+    "dawn": [
+      -2,
+      -85
+    ],
+    "day": [
+      40,
+      0
+    ],
+    "golden": [
+      4,
+      75
+    ],
+    "dusk": [
+      -3,
+      88
+    ],
+    "night": [
+      -30,
+      135
+    ]
+  },
+  "sun": [
+    "0011100",
+    "0111110",
+    "1111111",
+    "1111111",
+    "1111111",
+    "0111110",
+    "0011100"
+  ],
+  "moon": [
+    "0001110",
+    "0011000",
+    "0110000",
+    "1100000",
+    "1100000",
+    "1100000",
+    "0110000",
+    "0011001",
+    "0001110"
+  ],
+  "stars": [
+    [
+      2,
+      2
+    ],
+    [
+      16,
+      4
+    ],
+    [
+      22,
+      1
+    ],
+    [
+      32,
+      3
+    ],
+    [
+      37,
+      7
+    ]
+  ],
+  "ui_colors": {
+    "100": "e8efeb",
+    "101": "8eaab8",
+    "102": "243748",
+    "103": "4ad685",
+    "104": "dc8270",
+    "105": "efb965",
+    "106": "83aed7"
+  },
+  "notes": [
+    "Light is art-directed from geometric sun elevation, not a physical weather-light measurement.",
+    "Sky sprite placement is illustrative; moon is a night emblem, not the observed phase/position.",
+    "Display emulation is independent of these native material colors."
+  ],
+  "art_notes": {
+    "native": true,
+    "sky_bands": 16,
+    "window_sources": [
+      [
+        14,
+        22
+      ],
+      [
+        18,
+        22
+      ]
+    ],
+    "shoreline_y": 25,
+    "water_top": 26,
+    "motion": "Geometry locked; local water/reflection paths, cloud cels and acting poses."
+  }
+}

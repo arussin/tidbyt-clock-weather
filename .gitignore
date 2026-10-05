@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+*.webp
+
+# Retain synthetic animation previews in the repository.
+!review/*.webp
+.ruff_cache/
+.env
+.env.*
+
+*.whl
+*.tar.gz

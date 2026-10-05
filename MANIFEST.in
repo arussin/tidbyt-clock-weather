@@ -1,0 +1,5 @@
+include README.md PROVENANCE.md LICENSE VALIDATION.md requirements-build.txt requirements-tested.txt
+recursive-include examples *.json
+recursive-include tests *.py *.json
+recursive-include review *.png *.webp *.json
+recursive-include src/tidbyt_clock_weather/assets *.json *.png

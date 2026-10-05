@@ -1,0 +1,5 @@
+# Pinned preparation tools, not runtime dependencies.
+build==1.5.0
+setuptools==82.0.1
+wheel==0.46.3
+ruff==0.15.8

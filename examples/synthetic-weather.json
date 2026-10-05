@@ -1,0 +1,44 @@
+{
+  "fetched_at": "2026-01-15T12:00:00+00:00",
+  "response": {
+    "current_units": {
+      "temperature_2m": "\u00b0F",
+      "wind_speed_10m": "mp/h",
+      "time": "unixtime"
+    },
+    "daily_units": {
+      "temperature_2m_max": "\u00b0F",
+      "temperature_2m_min": "\u00b0F",
+      "precipitation_probability_max": "%",
+      "time": "unixtime"
+    },
+    "current": {
+      "time": 1768478400,
+      "temperature_2m": 48,
+      "wind_speed_10m": 9,
+      "weather_code": 61
+    },
+    "daily": {
+      "time": [
+        1768435200,
+        1768521600
+      ],
+      "temperature_2m_max": [
+        52,
+        55
+      ],
+      "temperature_2m_min": [
+        39,
+        41
+      ],
+      "weather_code": [
+        61,
+        2
+      ],
+      "precipitation_probability_max": [
+        70,
+        20
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "source_renderer": "tidbyt_suite.art_v06",
+  "python_version": "3.14.7 (main, Sep  1 2026, 14:17:30) [MSC v.1944 64 bit (AMD64)]",
+  "phases": [
+    "dawn",
+    "day",
+    "golden",
+    "dusk",
+    "night"
+  ],
+  "conditions": [
+    "clear",
+    "partly_cloudy",
+    "overcast",
+    "drizzle",
+    "rain",
+    "heavy_rain",
+    "freezing_rain",
+    "snow",
+    "heavy_snow",
+    "fog",
+    "storm",
+    "storm_hail",
+    "unknown"
+  ],
+  "frame_contract": {
+    "native_size": [
+      64,
+      32
+    ],
+    "frames": 96,
+    "frame_ms": 125,
+    "total_ms": 12000
+  },
+  "counts": {
+    "weather_full_matrix": 6240,
+    "clock_full_loops": 480,
+    "loop_contract": 26,
+    "loop_pixels": 2496,
+    "encoded_timing": 26,
+    "decoded_pixels": 2496,
+    "clock_hour_widths": 864,
+    "clock_calendar_zones": 280,
+    "weather_auto_lighting": 180,
+    "weather_numeric_edges": 330,
+    "freshness_mapping": 400,
+    "forecast_date_selection": 40,
+    "page_aliases": 15,
+    "source_unchanged": 1,
+    "runtime_isolation": 1
+  },
+  "total_checks": 13875,
+  "failed_counts": {},
+  "total_failures": 0,
+  "failure_examples": [],
+  "aggregate_reference_rgb_sha256": "01eb02ac6e9fbfc66df2ed260a5c3fcf664614eb0bba6d08f35475b85cd94960",
+  "aggregate_candidate_rgb_sha256": "01eb02ac6e9fbfc66df2ed260a5c3fcf664614eb0bba6d08f35475b85cd94960",
+  "current_freshness_policy": "Hide expired/future current values; preserve independent fresh forecasts",
+  "forecast_freshness_policy": "Hide expired/future forecast values; retain fresh current",
+  "missing_current_badge_policy": "canonical",
+  "stale_current_badge_policy": "Original Old when any observation exists, using non-display presence marker",
+  "normal_appearance_group": "weather_full_matrix and clock groups use fresh inputs",
+  "effective_data_group": "freshness_mapping hides stale values before canonical rendering; not raw stale-source parity",
+  "network_and_process_side_effects": "Blocked by socket overrides and audit hook",
+  "source_files_checked": 149,
+  "seconds": 23.88,
+  "comparison_board": "clock-weather-parity-comparison.png",
+  "limitations": [
+    "Offline synthetic comparison; not a physical device acceptance test",
+    "Finite input matrix; no claim of every possible weather value or instant"
+  ]
+}

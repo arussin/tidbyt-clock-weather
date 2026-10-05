@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=78", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tidbyt-clock-weather"
+version = "0.1.0"
+description = "Original native 64x32 clock and animated weather scenes"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+dependencies = ["Pillow>=12.0,<13", "tzdata>=2025.2"]
+
+[project.scripts]
+tidbyt-scenes = "tidbyt_clock_weather.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+tidbyt_clock_weather = ["assets/*.json", "assets/*.png"]
+
+[project.urls]
+Repository = "https://github.com/arussin/tidbyt-clock-weather"
