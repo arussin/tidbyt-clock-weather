@@ -6,6 +6,30 @@ Python 3.11+ with Pillow. Code, native bitmap glyphs and original artwork are av
 
 ![Original design with synthetic data](review/contact-sheet.png)
 
+## Every weather condition
+
+These are **384 × 192 screenshots of the actual 64 × 32 renderer**, enlarged 6× without smoothing. Every value is synthetic. Click any image to open it at full size.
+
+| Clear day | Clear night |
+| --- | --- |
+| ![Clear day weather](review/conditions/clear.png) | ![Clear night weather](review/conditions/clear_night.png) |
+| **Partly cloudy** | **Overcast** |
+| ![Partly cloudy weather](review/conditions/partly_cloudy.png) | ![Overcast weather](review/conditions/overcast.png) |
+| **Drizzle** | **Rain** |
+| ![Drizzle weather](review/conditions/drizzle.png) | ![Rain weather](review/conditions/rain.png) |
+| **Heavy rain** | **Freezing rain** |
+| ![Heavy rain weather](review/conditions/heavy_rain.png) | ![Freezing rain weather](review/conditions/freezing_rain.png) |
+| **Snow** | **Heavy snow** |
+| ![Snow weather](review/conditions/snow.png) | ![Heavy snow weather](review/conditions/heavy_snow.png) |
+| **Fog** | **Thunderstorm** |
+| ![Fog weather](review/conditions/fog.png) | ![Thunderstorm weather](review/conditions/storm.png) |
+| **Thunderstorm with hail** | **Unavailable weather** |
+| ![Thunderstorm with hail](review/conditions/storm_hail.png) | ![Unavailable weather](review/conditions/unknown.png) |
+
+The gallery covers all supported condition inputs. Clear night uses night lighting; the other conditions use day lighting for comparison. Storm screenshots select the lightning frame in the tomorrow half of the animation. The landscape still represents current weather while that panel shows tomorrow's range. Clear night is an alias of clear with night lighting, not a separate forecast family.
+
+Regenerate these screenshots after installing the package with python examples/render_condition_gallery.py --output review/conditions.
+
 ## Try it offline
 
 Clone this repository and create a fresh virtual environment:

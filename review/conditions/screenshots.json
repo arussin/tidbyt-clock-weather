@@ -1,0 +1,144 @@
+{
+  "input": "synthetic",
+  "native_size": [
+    64,
+    32
+  ],
+  "screenshot_size": [
+    384,
+    192
+  ],
+  "enlargement": "6x nearest-neighbor",
+  "at": "2026-01-15T12:00:00+00:00",
+  "timezone": "UTC",
+  "latitude": 0,
+  "longitude": 0,
+  "screenshots": [
+    {
+      "condition": "clear",
+      "label": "Clear day",
+      "phase": "day",
+      "frame": 20,
+      "file": "clear.png",
+      "native_rgb_sha256": "8eeb730869b1a6b1ed4d418bb081f45b53d291bb351e96ad08b5e3ad34fa6598",
+      "png_sha256": "90103bbf8fa9ff748977feaa73370fb47ddfa679e163f4d5aaf5131fc47f3394"
+    },
+    {
+      "condition": "clear_night",
+      "label": "Clear night",
+      "phase": "night",
+      "frame": 20,
+      "file": "clear_night.png",
+      "native_rgb_sha256": "a97e4a4cc2e23d68737db5ea107d00448fc25d4250a775ed30d3f59d4f425406",
+      "png_sha256": "6b46a6075bdbaec9188466ef69924c9ba9dc91919c7138e58f8c015751c8ac44"
+    },
+    {
+      "condition": "partly_cloudy",
+      "label": "Partly cloudy",
+      "phase": "day",
+      "frame": 20,
+      "file": "partly_cloudy.png",
+      "native_rgb_sha256": "14a6033038f1599c823e873b64a7aee7930a4d0fa1a5dc8b7975a596d3de8044",
+      "png_sha256": "4e2bb277e5f872b36c434eda87c2d904575b27707a0ac3fce5e736e1445c00b8"
+    },
+    {
+      "condition": "overcast",
+      "label": "Overcast",
+      "phase": "day",
+      "frame": 20,
+      "file": "overcast.png",
+      "native_rgb_sha256": "3e12ee2c981ad7a4965005e7bc4c727b23f4e6a6a487835e5d38ace95bd6ac71",
+      "png_sha256": "6c0d64fece773d42c9d842cbe5c70c435e2e7ca9079b8879ab7f2bc0ff00ff6d"
+    },
+    {
+      "condition": "drizzle",
+      "label": "Drizzle",
+      "phase": "day",
+      "frame": 20,
+      "file": "drizzle.png",
+      "native_rgb_sha256": "55dafee108264ea54fc3e94272d3090c8790c1d068935ff08674c0955ec4ed0a",
+      "png_sha256": "a3d32568b7a1d4e230bfe3f71242d48266f4387082d5eeb5622373145ec764aa"
+    },
+    {
+      "condition": "rain",
+      "label": "Rain",
+      "phase": "day",
+      "frame": 20,
+      "file": "rain.png",
+      "native_rgb_sha256": "9bcfa2c6e20b47973614f10ed0bb58ac0af0567c3f0876b623dbf16ad87a6e15",
+      "png_sha256": "4b5928db1cd51700df34a508ed6492a20b8c1e4d476c136d6fe2bb3d205f2914"
+    },
+    {
+      "condition": "heavy_rain",
+      "label": "Heavy rain",
+      "phase": "day",
+      "frame": 20,
+      "file": "heavy_rain.png",
+      "native_rgb_sha256": "93bcca3416a43152f258610d426d63818f2e702411f99469a857f66a552dc7e3",
+      "png_sha256": "d01fb8491bb881002d1f93d6c53f29db182f916fe0c84cc540641c11ada90566"
+    },
+    {
+      "condition": "freezing_rain",
+      "label": "Freezing rain",
+      "phase": "day",
+      "frame": 20,
+      "file": "freezing_rain.png",
+      "native_rgb_sha256": "452cf8894f7e701ea715d4776c670417e6e1e1b84dd55aa8b56d8124d949d2c2",
+      "png_sha256": "431c7c2f8e8c118870c638405d915d7a3e072f3f2dfe60592e2db2990812318e"
+    },
+    {
+      "condition": "snow",
+      "label": "Snow",
+      "phase": "day",
+      "frame": 20,
+      "file": "snow.png",
+      "native_rgb_sha256": "da36f076d4d44956e6e5e69188e5f62e3107ddd2ae3b1e0d5abdc0e1b52b0e98",
+      "png_sha256": "00e91b255f81fcfb411a8f113b3288152cea98dee24903743578b3cabb129580"
+    },
+    {
+      "condition": "heavy_snow",
+      "label": "Heavy snow",
+      "phase": "day",
+      "frame": 20,
+      "file": "heavy_snow.png",
+      "native_rgb_sha256": "76cfe4f0d6f3009662b5839a0cab7b39fd728814a375f03618efb66f0074b7d0",
+      "png_sha256": "6b014e63e9020e7c6d657b93ad42e9e3b341182618ee875744e4748662f7ff2f"
+    },
+    {
+      "condition": "fog",
+      "label": "Fog",
+      "phase": "day",
+      "frame": 20,
+      "file": "fog.png",
+      "native_rgb_sha256": "bd379bf74f5e1214b19a3df106ef7ed9c0ec0b215ac417efcbc6c18b78860c63",
+      "png_sha256": "e9a805bfd429110faf6b8c119fc31d333a8a2db82dd99b3c1507059955796515"
+    },
+    {
+      "condition": "storm",
+      "label": "Thunderstorm",
+      "phase": "day",
+      "frame": 52,
+      "file": "storm.png",
+      "native_rgb_sha256": "fd74c8391cc2fe49b31fb3e639706f6e2c3ffd7c41847b02a248498e0013530c",
+      "png_sha256": "81df30d32576aec789634c7256c39a18229b5c27da610335d8b95d862cffccf4"
+    },
+    {
+      "condition": "storm_hail",
+      "label": "Thunderstorm with hail",
+      "phase": "day",
+      "frame": 52,
+      "file": "storm_hail.png",
+      "native_rgb_sha256": "d9aa55731a886da45473d63cbe560d359a3c53ff7358bd5b25980770e5e27190",
+      "png_sha256": "f90230d2872842e150f91cb958509ba5b013562442a46aba5884bf85dc6c5ab7"
+    },
+    {
+      "condition": "unknown",
+      "label": "Unavailable weather",
+      "phase": "day",
+      "frame": 20,
+      "file": "unknown.png",
+      "native_rgb_sha256": "a549978e6f55fcf3ac832a3899eaff7ab03a27d28223f67ca0e3b5d2ffed1c26",
+      "png_sha256": "bf484bdf4b29f3bfff3c07021df498227312228c38f6390d4577a243ecfe0d67"
+    }
+  ]
+}
